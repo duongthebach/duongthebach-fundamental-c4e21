@@ -19,7 +19,7 @@ for key in prices:
     print("price", ":", a)
     print("stock", ":", b)
     total = a * b
-    print(total)
+    print("total:", total)
     total_money += total
     print()  
-print("total: ", total_money)
+print("total money: ", total_money)
